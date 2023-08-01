@@ -14,7 +14,7 @@ I recently came across <a href="https://github.com/rhasspy/piper">piper</a>: an 
 
 Once I've highlighted text on my screen (whether it is in my browser, terminal or pdf reader), I can have its high quality audio generated and played back by pressing `ctrl+alt+p` on my keyboard or by clicking the icon on my panel. 
 
-![image](https://github.com/evuraan/mintPiper/assets/39205936/39bf58ce-2378-4035-989f-b2109a21168a)
+![image](https://github.com/evuraan/mintPiper/assets/39205936/87a52806-5850-462d-b3f7-b28d6cdc1bdd)
 
 
 
@@ -44,7 +44,7 @@ So, in my case, the command would be: `xterm -e "/tools/piper/piper/playSelected
 I preferred `ctrl alt p` as the shortcut. 
 
 Once you save,  highlight some legible text and press your keyboard shortcut. It should play that back in high-quality, locally created audio. 
-![image](https://github.com/evuraan/mintPiper/assets/39205936/55b45dbc-5ad4-4ceb-87e8-508d6bac3b42)
+![image](https://github.com/evuraan/mintPiper/assets/39205936/81400042-2bba-45e2-9181-1906b080d601)
 
 
 ### Add a Desktop Launchers
@@ -52,7 +52,7 @@ Add a desktop launcher (the icon that would appear on the left side of your desk
 
 Point this launcher to  `xterm -e "/tools/piper/piper/playSelectedTTS.sh"`. Use an image from the images folder as the icon thumbnail. 
 
-![image](https://github.com/evuraan/mintPiper/assets/39205936/071a55b0-39e0-4e9a-8f1b-c605dfd7c9a0)
+![image](https://github.com/evuraan/mintPiper/assets/39205936/e4ab2bfc-394e-49d8-9d52-dc2ca2029ed0)
 
 
 
@@ -66,7 +66,7 @@ The command should be what was shown in your `🟢 For panel startup application
 
 In my example, the command then would be `/tools/piper/piper/mintPiper.py`:
 
-![image](https://github.com/evuraan/mintPiper/assets/39205936/4bdc2409-3ecd-42ea-9241-58e6ac278da1)
+![image](https://github.com/evuraan/mintPiper/assets/39205936/49135e78-885b-4d29-9e63-6dbec1869350)
 
 When you login to the desktop next time, you should see the panel icon as in my screenshot above. Left click and select `Run Piper TTS`, and it should play clear audio of your selected text. 
 
