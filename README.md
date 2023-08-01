@@ -2,7 +2,7 @@
 
 Make Linux Mint (MATE) speak what's on the screen: clearly and securely. 
 
-## Introduction: What/Why.
+## What/Why.
 I use Linux Mint (MATE), and have been looking for a decent and secure way to read my screen in high quality, legible audio.  
 
 My primary requirements were:
@@ -77,7 +77,6 @@ When you login to the desktop next time, you should see the panel icon as in my 
 3. Remove the folder you installed `mintPiper` into. In my example, that would be `/tools/piper` directory. 
 
 # Footnotes
-1. All credits must go to the piper team at https://github.com/rhasspy/piper.
+1. Many thanks to piper team at https://github.com/rhasspy/piper.
 2. This PoC may work for Cinnamon, xfce et al.
-3. If you have suggestions, please spawn a PR.
 
