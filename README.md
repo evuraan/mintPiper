@@ -24,7 +24,7 @@ Here's a [short demo video.](https://evuraan.info/evuraan/stuff/mintPiperDemo.mp
 Cone this repo, and run setup.sh with the args of a folder to create and write to, and your h/w arch:
 
 <pre>
-  $ git clone https://github.com/anmathew/mintPiper.git FIX THIS!
+  $ git clone https://github.com/evuraan/mintPiper.git
   $ cd mintPiper 
   $ ./setup.sh /tools/piper amd64
 </pre>
