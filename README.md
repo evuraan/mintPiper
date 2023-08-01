@@ -17,7 +17,7 @@ Once I've highlighted text on my screen (whether it is in my browser, terminal o
 ![image](https://github.com/evuraan/mintPiper/assets/39205936/87a52806-5850-462d-b3f7-b28d6cdc1bdd)
 
 ## Demo
-Here's a short demo video: https://github.com/evuraan/mintPiper/raw/main/demo/mintPiperDemo.mp4
+Here's a [short demo video.](https://evuraan.info/evuraan/stuff/mintPiperDemo.mp4)
 
 ## Setup
 
