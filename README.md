@@ -21,11 +21,14 @@ Here's a [short demo video.](https://evuraan.info/evuraan/stuff/mintPiperDemo.mp
 
 ## Setup
 
-Cone this repo, and run setup.sh with the args of a folder to create and write to, and your h/w arch:
-
+Cone this repo:
 <pre>
   $ git clone https://github.com/evuraan/mintPiper.git
-  $ cd mintPiper 
+  $ cd mintPiper
+</pre>
+
+Run setup.sh with the arguments of (1) a folder to create and write to, and (2) your h/w arch:
+<pre>
   $ ./setup.sh /tools/piper amd64
 </pre>
 `setup.sh` will check for dependencies and when it completes, it would have something like this as its last lines of output:
