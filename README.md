@@ -14,7 +14,8 @@ I recently came across <a href="https://github.com/rhasspy/piper">piper</a>: an 
 
 Once I've highlighted text on my screen (whether it is in my browser, terminal or pdf reader), I can have its high quality audio generated and played back by pressing `ctrl+alt+p` on my keyboard or by clicking the icon on my panel. 
 
-![image](https://github.com/evuraan/mintPiper/assets/39205936/87a52806-5850-462d-b3f7-b28d6cdc1bdd)
+![image](https://github.com/evuraan/mintPiper/assets/39205936/ea611c7a-6cbf-40dd-a132-c0e2b553ea6c)
+
 
 ## Demo
 Here's a [short demo video.](https://evuraan.info/evuraan/stuff/mintPiperDemo.mp4)
@@ -48,7 +49,9 @@ So, in my case, the command would be: `xterm -e "/tools/piper/piper/playSelected
 I preferred `ctrl alt p` as the shortcut. 
 
 Once you save,  highlight some legible text and press your keyboard shortcut. It should play that back in high-quality, locally created audio. 
-![image](https://github.com/evuraan/mintPiper/assets/39205936/81400042-2bba-45e2-9181-1906b080d601)
+
+
+![image](https://github.com/evuraan/mintPiper/assets/39205936/c86a7a5e-b422-417d-9122-94ee60165c9b)
 
 
 ### Add a Desktop Launchers
@@ -56,7 +59,7 @@ Add a desktop launcher (the icon that would appear on the left side of your desk
 
 Point this launcher to  `xterm -e "/tools/piper/piper/playSelectedTTS.sh"`. Use an image from the images folder as the icon thumbnail. 
 
-![image](https://github.com/evuraan/mintPiper/assets/39205936/e4ab2bfc-394e-49d8-9d52-dc2ca2029ed0)
+![image](https://github.com/evuraan/mintPiper/assets/39205936/b0ab7046-2be1-4c35-bdb9-53c853831668)
 
 
 
@@ -70,7 +73,7 @@ The command should be what was shown in your `🟢 For panel startup application
 
 In my example, the command then would be `/tools/piper/piper/mintPiper.py`:
 
-![image](https://github.com/evuraan/mintPiper/assets/39205936/49135e78-885b-4d29-9e63-6dbec1869350)
+![image](https://github.com/evuraan/mintPiper/assets/39205936/c205524f-5075-4d07-9f65-36e08baca46c)
 
 When you login to the desktop next time, you should see the panel icon as in my screenshot above. Left click and select `Run Piper TTS`, and it should play clear audio of your selected text. 
 
