@@ -1,18 +1,21 @@
 # mintPiper
 
-Make Linux Mint (MATE) speak what's on the screen: clearly and securely. 
+Make Linux speak what's on the screen: clearly and securely. 
 
-## What/Why.
-I use Linux Mint (MATE), and have been looking for a decent and secure way to read my screen in high quality, legible audio.  
+## Overview
 
-My primary requirements were:
-1. It must be good quality audio.
-2. Privacy and security concerns: My data must not leave my machine.
+mintPiper is for Linux desktop users who want a safe and trustworthy way to read the screen text in high quality, legible audio.
 
-I recently came across <a href="https://github.com/rhasspy/piper">piper</a>: an awesome, fast and most importantly, local neural text to speech system. They have done such funtastic work and I was able to create `mintPiper` which converts the highlighted text into good quality audio. 
+1. **High-Quality Audio:** Ensuring crisp and clear audio output.
+2. **Privacy and Security:** Keeping user data within the local machine.
 
+## Features
 
-Once I've highlighted text on my screen (whether it is in my browser, terminal or pdf reader), I can have its high quality audio generated and played back by pressing `ctrl+alt+p` on my keyboard or by clicking the icon on my panel. 
+- **Quality Audio Output:** Enjoy clear and understandable audio playback.
+- **Privacy-First:** Your data remains within your machine, ensuring privacy and security.
+- **Fast and Local:** Utilizes a local neural text-to-speech system for efficient processing.
+
+Now, with a simple keyboard shortcut (ctrl+alt+p) or by clicking the convenient icon on my panel, I can instantly generate and enjoy high-quality audio playback of any selected text on my screen. Thanks to piper's remarkable work and my mintPiper adaptation, I've found the perfect solution to enhance my Linux experience.
 
 ![image](https://github.com/evuraan/mintPiper/assets/39205936/ea611c7a-6cbf-40dd-a132-c0e2b553ea6c)
 
@@ -85,4 +88,8 @@ When you login to the desktop next time, you should see the panel icon as in my 
 # Footnotes
 1. Many thanks to piper team at https://github.com/rhasspy/piper.
 2. This PoC may work for Cinnamon, xfce et al.
+
+## Credits
+
+mintPiper is inspired by the <a href="https://github.com/rhasspy/piper">piper</a> project. Special thanks to the developers for their fantastic work.
 
