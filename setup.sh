@@ -7,7 +7,7 @@ supportedArchs="amd64|arm64|armv7"
 
 defaultVoice="en_US-amy-low"
 
-# wget -qhttps://raw.githubusercontent.com/rhasspy/piper/master/VOICES.md -O - |  grep -o "https://[^[:space:]')]\+"
+# wget -q https://raw.githubusercontent.com/rhasspy/piper/master/VOICES.md -O - |  grep -o "https://[^[:space:]')?]\+"
 
 urls="
 https://huggingface.co/rhasspy/piper-voices/resolve/v1.0.0/ar/ar_JO/kareem/low/ar_JO-kareem-low.onnx
