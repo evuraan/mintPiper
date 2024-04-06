@@ -276,9 +276,6 @@ function usage() {
 
 }
 
-voiceToInstall="${3:-$defaultVoice}"
-echo "Installing $voiceToInstall"
-
 if [[ $# -le 2 ]]; then
 	echo "Invalid usage"
 	usage
@@ -290,6 +287,9 @@ egrep -q $2 <<<$supportedArchs || {
 	echo "We expect one of these: $supportedArchs"
 	exit 1
 }
+
+voiceToInstall="${3:-$defaultVoice}"
+echo "Installing $voiceToInstall"
 
 runFolder=$(pwd)
 mkdir $1/piper -pv
