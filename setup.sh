@@ -260,7 +260,7 @@ done
 
 egrep -q "\-showVoices" <<<$@ && {
 	echo "Available voices:"
-	grep "onnx$" <<<$urls | awk -F"/" {'print $NF'} | while read a; do echo ${a/\.onnx?*/}; done | nl
+	grep "onnx$" <<<$urls | awk -F"/" {'print $NF'} | while read a; do echo ${a/\.onnx/}; done | nl
 	exit 0
 }
 
